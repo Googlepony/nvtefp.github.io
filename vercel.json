@@ -1,15 +1,15 @@
 {
   "functions": {
-    "api/index": {
+    "index": {
       "memory": 512,
       "maxDuration": 10
     }
   },
   "routes": [
     {
-      "src": "/api/index",
+      "src": "/index",
       "methods": ["POST"],
-      "dest": "api/index.js"
+      "dest": "index.js"
     }
   ]
 }
