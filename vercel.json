@@ -1,16 +1,9 @@
 {
   "functions": {
-    "index": {
-      "memory": 512,
+    "api/index": {
+      "runtime": "nodejs16.x",
+      "memory": 1024,
       "maxDuration": 10
     }
-  },
-  "routes": [
-    {
-      "src": "/index",
-      "methods": ["POST"],
-      "dest": "index.js"
-    }
-  ]
+  }
 }
-
